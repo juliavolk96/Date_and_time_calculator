@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calci</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="column">
+      <h2>Начальные дата и время</h2>
+      <label for="start-date">Дата:</label>
+      <input type="date" class="date-input" id="start-date">
+      <label for="start-time">Время:</label>
+      <input type="time" class="time-input" id="start-time">
+    </div>
+    <div class="column">
+      <h2>Конечные дата и время</h2>
+      <label for="end-date">Дата:</label>
+      <input type="date" class="date-input" id="end-date">
+      <label for="end-time">Время:</label>
+      <input type="time" class="time-input" id="end-time">
+    </div>
+    <button class="calculate-button" id="calculate-btn">Рассчитать</button>
+    <div class="result-container" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
